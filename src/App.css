@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -13,16 +14,36 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.flexContainer {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 16px;
+  margin-top: 16px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  color: black
 }
+
+/* This container will naturally size to fit its content */
+.calendarContainer {
+  /* Add any styling for the calendar events here */
+}
+
+/* Push the LocationInfo to the right */
+.locationContainer {
+  margin-left: auto;
+  /* Optionally add additional styling */
+  padding-left: 16px;
+  border-left: 1px solid #eee;
+}
+
+
+
+
 
 .App-link {
   color: #61dafb;
